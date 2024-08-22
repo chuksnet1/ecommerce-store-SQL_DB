@@ -1,0 +1,159 @@
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color:transparent;
+  height: 30rem;
+  width: 100%;
+  margin: 1rem 0 2rem 0;
+}
+
+.inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width:100%;
+  background-color: transparent;
+  gap: 2rem;
+}
+
+.pic-up {
+  background-color: white;
+  height: 100%;
+  width: 30%;
+}
+
+.top-offer {
+  background-color: white;
+  height: 100%;
+  width: 30%;
+}
+
+.popular {
+  background-color: white;
+  height: 100%;
+  width: 30%;
+}
+
+h3{
+    margin-left: 1rem;
+}
+
+.pic-container{
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-first{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.pic-first>img{
+    height: 90%;
+    width: 50%;
+   
+}
+
+.pic-bottom{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pic-bottom>img{
+    height: 90%;
+    width: 50%;
+   
+}
+
+.top-container1{
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top-first{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.top-first>img{
+    height: 90%;
+    width: 45%;
+    object-fit: cover;
+    border: solid;
+}
+
+.topfirstImg{
+    height: 8.3rem;
+    width: 90%;
+    object-fit: cover;
+    border: solid;
+}
+
+.top-bottom{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.top-bottom>img{
+    height: 90%;
+    width: 45%;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+
+.pic-container{
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-first{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.pic-first>img{
+    height: 90%;
+    width: 45%;
+    object-fit: cover;
+}
+.pic-bottom{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pic-bottom>img{
+    height: 90%;
+    width: 45%;
+   margin-top: 2.8rem;
+   object-fit: cover;
+}

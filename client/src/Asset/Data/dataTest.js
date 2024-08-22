@@ -1,0 +1,22 @@
+export const school= [
+    {
+        id:1,
+        title:'arinze',
+        score:'23'
+    },
+    {
+        id:2,
+        title:'akine',
+        score:'298'
+    },
+    {
+        id:3,
+        title:'wars',
+        score:'45'
+    },
+    {
+        id:4,
+        title:'poridge',
+        score:'43'
+    },
+]

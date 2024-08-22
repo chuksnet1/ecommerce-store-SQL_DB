@@ -1,0 +1,26 @@
+.New-Arrival{
+    height: 22rem ;
+    width: 100%;
+    background-color: red;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img-dis{
+    border: solid;
+    width: 60%;  
+    margin: 2rem;
+    display: flex;
+    
+}
+
+.newItem>img{
+    height: 15%;
+    width: 100%;
+}
+
+.newItem>p{
+    margin-left: 1.5rem;
+}

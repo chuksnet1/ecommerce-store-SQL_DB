@@ -1,0 +1,100 @@
+.outer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container{
+    display: flex;
+    background-color:rgb(23, 22, 22);
+    justify-content: space-around;
+    height: 5rem;
+    color: white;
+    margin: 0;
+}
+
+img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.logo-area{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    
+}
+
+.logo-area>img{
+    width: 4rem;
+    height: 3rem;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.search-box>input{
+    height: 2rem;
+    width: 15rem;
+    margin: 0;
+    border-radius: 0.5rem;
+}
+.search-box>img{
+    height: 2.2rem;
+    width: 2rem;
+    position: relative;
+    right: 1rem;
+    background-color: rgb(255, 125, 11);
+    margin: 0;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.inside-location>p{
+    margin: 0px;
+}
+
+.account-owner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-owner>p{
+    margin: 0px;
+}
+
+.account-owner>h5{
+    margin: 0px;
+}
+
+.cart-order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(96, 93, 93);
+    height: 5rem;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
